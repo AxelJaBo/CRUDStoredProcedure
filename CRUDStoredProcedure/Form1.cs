@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,13 @@ namespace CRUDStoredProcedure
         public Form1()
         {
             InitializeComponent();
+        }
+
+        SqlConnection con = new SqlConnection("Data Source=DESKTOP-KA53HTR;Initial Catalog=CRUD_SP;Persist Security Info=True;User ID=sa;Password=***********");
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

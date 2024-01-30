@@ -35,14 +35,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.txtContact = new System.Windows.Forms.TextBox();
+            this.cbCity = new System.Windows.Forms.ComboBox();
+            this.rdMale = new System.Windows.Forms.RadioButton();
+            this.rdFemale = new System.Windows.Forms.RadioButton();
+            this.dtpJoiningDate = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -119,74 +119,74 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Contact:";
             // 
-            // textBox1
+            // txtID
             // 
-            this.textBox1.Location = new System.Drawing.Point(201, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtID.Location = new System.Drawing.Point(201, 32);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(200, 20);
+            this.txtID.TabIndex = 7;
             // 
-            // textBox2
+            // txtName
             // 
-            this.textBox2.Location = new System.Drawing.Point(201, 57);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 8;
+            this.txtName.Location = new System.Drawing.Point(201, 57);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(200, 20);
+            this.txtName.TabIndex = 8;
             // 
-            // textBox3
+            // txtAge
             // 
-            this.textBox3.Location = new System.Drawing.Point(201, 111);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtAge.Location = new System.Drawing.Point(201, 111);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(200, 20);
+            this.txtAge.TabIndex = 9;
             // 
-            // textBox4
+            // txtContact
             // 
-            this.textBox4.Location = new System.Drawing.Point(201, 199);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtContact.Location = new System.Drawing.Point(201, 199);
+            this.txtContact.Name = "txtContact";
+            this.txtContact.Size = new System.Drawing.Size(200, 20);
+            this.txtContact.TabIndex = 10;
             // 
-            // comboBox1
+            // cbCity
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(201, 84);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 11;
+            this.cbCity.FormattingEnabled = true;
+            this.cbCity.Location = new System.Drawing.Point(201, 84);
+            this.cbCity.Name = "cbCity";
+            this.cbCity.Size = new System.Drawing.Size(200, 21);
+            this.cbCity.TabIndex = 11;
             // 
-            // radioButton1
+            // rdMale
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(201, 137);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(61, 24);
-            this.radioButton1.TabIndex = 12;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdMale.AutoSize = true;
+            this.rdMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdMale.Location = new System.Drawing.Point(201, 137);
+            this.rdMale.Name = "rdMale";
+            this.rdMale.Size = new System.Drawing.Size(61, 24);
+            this.rdMale.TabIndex = 12;
+            this.rdMale.TabStop = true;
+            this.rdMale.Text = "Male";
+            this.rdMale.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdFemale
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(268, 137);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(80, 24);
-            this.radioButton2.TabIndex = 13;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdFemale.AutoSize = true;
+            this.rdFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdFemale.Location = new System.Drawing.Point(268, 137);
+            this.rdFemale.Name = "rdFemale";
+            this.rdFemale.Size = new System.Drawing.Size(80, 24);
+            this.rdFemale.TabIndex = 13;
+            this.rdFemale.TabStop = true;
+            this.rdFemale.Text = "Female";
+            this.rdFemale.UseVisualStyleBackColor = true;
             // 
-            // dateTimePicker1
+            // dtpJoiningDate
             // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(201, 167);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker1.TabIndex = 14;
+            this.dtpJoiningDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpJoiningDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpJoiningDate.Location = new System.Drawing.Point(201, 167);
+            this.dtpJoiningDate.Name = "dtpJoiningDate";
+            this.dtpJoiningDate.Size = new System.Drawing.Size(200, 26);
+            this.dtpJoiningDate.TabIndex = 14;
             // 
             // label8
             // 
@@ -208,6 +208,7 @@
             this.button1.TabIndex = 16;
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
@@ -226,14 +227,14 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dtpJoiningDate);
+            this.Controls.Add(this.rdFemale);
+            this.Controls.Add(this.rdMale);
+            this.Controls.Add(this.cbCity);
+            this.Controls.Add(this.txtContact);
+            this.Controls.Add(this.txtAge);
+            this.Controls.Add(this.txtName);
+            this.Controls.Add(this.txtID);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -259,14 +260,14 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.TextBox txtContact;
+        private System.Windows.Forms.ComboBox cbCity;
+        private System.Windows.Forms.RadioButton rdMale;
+        private System.Windows.Forms.RadioButton rdFemale;
+        private System.Windows.Forms.DateTimePicker dtpJoiningDate;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
