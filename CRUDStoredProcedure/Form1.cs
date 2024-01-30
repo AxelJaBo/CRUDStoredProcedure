@@ -23,7 +23,8 @@ namespace CRUDStoredProcedure
         private void button1_Click(object sender, EventArgs e)
         {
             int empid = int.Parse(txtID.Text);
-            string empname = txtName.Text, city = cbCity.Text, contact = txtContact.Text, sex = "", Joindate = txtJoiningDate.Text;
+            string empname = txtName.Text, city = cbCity.Text, contact = txtContact.Text, sex = "";
+            DateTime Joindate = DateTime.Parse(txtJoiningDate.Text);
             int age = int.Parse(txtAge.Text);
             
             if (rbMale.Checked == true)
