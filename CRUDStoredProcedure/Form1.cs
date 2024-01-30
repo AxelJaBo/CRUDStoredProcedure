@@ -24,7 +24,7 @@ namespace CRUDStoredProcedure
         {
             int empid = int.Parse(txtID.Text);
             string empname = txtName.Text, city = cbCity.Text, contact = txtContact.Text, sex = "";
-            DateTime Joindate = DateTime.Parse(txtJoiningDate.Text);
+            DateTime joindate = DateTime.Parse(dtpJoiningDate.Text);
             int age = int.Parse(txtAge.Text);
             
             if (rbMale.Checked == true)
@@ -36,7 +36,7 @@ namespace CRUDStoredProcedure
                 sex = "Female";
             }
             con.Open();
-            SqlCommand c = new SqlCommand($"exec InsertEmp_SP {empid}, {empname}, {city}, {age}, {sex}, {Joindate}, {contact}", con);
+            SqlCommand c = new SqlCommand("exec InsertEmp_SP '" + empid + "', '"+ empname + "', '"+ city + "', '"+ age + "', '"+ sex + "', '"+ joindate + "', '"+ contact +"'", con);
             c.ExecuteNonQuery();
             MessageBox.Show("Successfully inserted!...");
             getEmpList();

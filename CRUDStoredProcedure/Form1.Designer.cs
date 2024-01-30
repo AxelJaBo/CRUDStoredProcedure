@@ -45,7 +45,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtJoiningDate = new System.Windows.Forms.TextBox();
+            this.dtpJoiningDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -209,12 +209,12 @@
             this.dataGridView1.Size = new System.Drawing.Size(469, 209);
             this.dataGridView1.TabIndex = 17;
             // 
-            // txtJoiningDate
+            // dtpJoiningDate
             // 
-            this.txtJoiningDate.Location = new System.Drawing.Point(202, 167);
-            this.txtJoiningDate.Name = "txtJoiningDate";
-            this.txtJoiningDate.Size = new System.Drawing.Size(200, 20);
-            this.txtJoiningDate.TabIndex = 18;
+            this.dtpJoiningDate.Location = new System.Drawing.Point(202, 168);
+            this.dtpJoiningDate.Name = "dtpJoiningDate";
+            this.dtpJoiningDate.Size = new System.Drawing.Size(200, 20);
+            this.dtpJoiningDate.TabIndex = 18;
             // 
             // Form1
             // 
@@ -222,7 +222,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
             this.ClientSize = new System.Drawing.Size(494, 487);
-            this.Controls.Add(this.txtJoiningDate);
+            this.Controls.Add(this.dtpJoiningDate);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
@@ -269,7 +269,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txtJoiningDate;
+        private System.Windows.Forms.DateTimePicker dtpJoiningDate;
     }
 }
 
